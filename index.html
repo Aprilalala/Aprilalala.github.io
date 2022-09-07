@@ -3,6 +3,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html;charset=gb2312">
     <title>自我介绍</title>
+    #div1 {
+	width: 400px;
+	height: 100px;
+	background-color: pink;
+}
+p {
+	line-height: 100px;
+}
+
+<div id="div1">
+    <p>awefawe</p>
+</div>
+#app {
+        /*图片铺满整个浏览器窗口,设置在body身上也可以*/
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('./img/bg.png') no-repeat;
+        background-size: cover;
+        z-index: -1;
+}
+
+<body>
+    <div id="app"></div>
+</body>
+
 </head>
 <body>
     <h1>自我介绍</h1>
@@ -15,7 +43,6 @@
             <dd>计科207</dd>
         <dt>爱好</dt>
             <dd>美食、游泳、旅游</dd>
-        
     </dl>
     <a href="http://www.baidu.com"><img src="照片路径" width="400px"></a>
 </body>
